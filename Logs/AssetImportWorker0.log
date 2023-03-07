@@ -15,7 +15,7 @@ C:/Users/maddy.potter/Documents/Git/RowellPrototypes2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53624
+63820
 Successfully changed project path to: C:/Users/maddy.potter/Documents/Git/RowellPrototypes2022
 C:/Users/maddy.potter/Documents/Git/RowellPrototypes2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/maddy.potter/Documents/Git/RowellPrototypes2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14644] Host "[IP] 10.171.128.4 [Port] 0 [Flags] 2 [Guid] 1104615809 [EditorId] 1104615809 [Version] 1048832 [Id] WindowsEditor(7,JOHN-CADL-W015) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12912] Host "[IP] 10.171.128.4 [Port] 0 [Flags] 2 [Guid] 1757964702 [EditorId] 1757964702 [Version] 1048832 [Id] WindowsEditor(7,JOHN-CADL-W015) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14644] Host "[IP] 10.171.128.4 [Port] 0 [Flags] 2 [Guid] 1104615809 [EditorId] 1104615809 [Version] 1048832 [Id] WindowsEditor(7,JOHN-CADL-W015) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12912] Host "[IP] 10.171.128.4 [Port] 0 [Flags] 2 [Guid] 1757964702 [EditorId] 1757964702 [Version] 1048832 [Id] WindowsEditor(7,JOHN-CADL-W015) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 38.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,76 +67,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.009720 seconds.
+Registered in 0.009187 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.721 seconds
+- Completed reload, in  0.724 seconds
 Domain Reload Profiling:
-	ReloadAssembly (722ms)
+	ReloadAssembly (725ms)
 		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (497ms)
+		EndReloadAssembly (500ms)
 			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
+			SetupTypeCache (149ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (277ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (265ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004845 seconds.
+Registered in 0.004680 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.963 seconds
+- Completed reload, in  1.060 seconds
 Domain Reload Profiling:
-	ReloadAssembly (963ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (712ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (211ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (340ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (421ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (224ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -145,12 +145,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (56.5 KB). Loaded Objects now: 2334.
 Memory consumption went from 91.1 MB to 91.0 MB.
-Total: 3.785200 ms (FindLiveObjects: 0.157300 ms CreateObjectMapping: 0.078100 ms MarkObjects: 3.365300 ms  DeleteObjects: 0.169800 ms)
+Total: 4.134500 ms (FindLiveObjects: 0.161100 ms CreateObjectMapping: 0.077300 ms MarkObjects: 3.749300 ms  DeleteObjects: 0.145800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,85 +164,775 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 85397.711698 seconds.
-  path: Assets/3 - Story/Prefabs/LevelEndPlatform.prefab
-  artifactKey: Guid(d4ce059e39141ef4fb7a42134f7a4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/LevelEndPlatform.prefab using Guid(d4ce059e39141ef4fb7a42134f7a4e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6c60fd560c2de0054847525eccfcd9') in 0.147426 seconds 
+  Time since last request: 441588.633038 seconds.
+  path: Assets/3 - Story/Scenes/Scene4.unity
+  artifactKey: Guid(cadb181f7b7650f43bfe6c6f2e566542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3 - Story/Scenes/Scene4.unity using Guid(cadb181f7b7650f43bfe6c6f2e566542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c4df1a28d0e44d6cbfd8880f772df2') in 0.009824 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/3 - Story/Prefabs/WorldCanvas.prefab
-  artifactKey: Guid(863e31c169cbe864bb9464ca7340d482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/WorldCanvas.prefab using Guid(863e31c169cbe864bb9464ca7340d482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c6ea02e7a4517929319fbfcb4e42a4') in 0.081869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3 - Story/Prefabs/Tree.prefab
-  artifactKey: Guid(1875b0a18998a6342beefd249de119cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/Tree.prefab using Guid(1875b0a18998a6342beefd249de119cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b551b557c1f3592b6f7888c58b8e52') in 0.082488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3 - Story/Prefabs/ClickMovePlayer.prefab
-  artifactKey: Guid(fd6d5c48f8afa7140b509824b969d5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/ClickMovePlayer.prefab using Guid(fd6d5c48f8afa7140b509824b969d5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2762d3b250490d170ed7dccc10a56f98') in 0.227103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/3 - Story/Prefabs/Present.prefab
-  artifactKey: Guid(fd0b8ba072c049e47a8daa12c63f8b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/Present.prefab using Guid(fd0b8ba072c049e47a8daa12c63f8b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f783291853e2c4f2738c3f9bcc2ff6db') in 0.026243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/3 - Story/Prefabs/TargetIndicator.prefab
-  artifactKey: Guid(ab805d0a6d1e65b4abe1afc247b1bb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/TargetIndicator.prefab using Guid(ab805d0a6d1e65b4abe1afc247b1bb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6001057f2d67ebc5c2429f5f52227b1a') in 0.140016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/3 - Story/Prefabs/UICanvas.prefab
-  artifactKey: Guid(13d1cda4e1de49e44bcec783ed8dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/UICanvas.prefab using Guid(13d1cda4e1de49e44bcec783ed8dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b1a1d680155127c9077c1f8b086d9d') in 0.055125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3 - Story/Prefabs/FirstPersonPlayer.prefab
-  artifactKey: Guid(ca9f84ce16c9305408e0812c300f3cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/FirstPersonPlayer.prefab using Guid(ca9f84ce16c9305408e0812c300f3cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb1dcad9ab4d08e5cb890539158b945') in 0.066569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3 - Story/Prefabs/Apple.prefab
-  artifactKey: Guid(d3c555bbd1fbec9439d95277fc29f95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/Apple.prefab using Guid(d3c555bbd1fbec9439d95277fc29f95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c90c64c6600e0d95daf6506a1d32185') in 0.018841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/3 - Story/Prefabs/Signpost.prefab
-  artifactKey: Guid(abed8207c525d484c9358ccf2a241a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/Signpost.prefab using Guid(abed8207c525d484c9358ccf2a241a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fbb8b0043c3aca76b2a52b2a894f40') in 0.076836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3 - Story/Prefabs/ItemCanvas.prefab
-  artifactKey: Guid(66f4632eaad380045a2c23348bae1fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/ItemCanvas.prefab using Guid(66f4632eaad380045a2c23348bae1fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc64ebd85e9256b8ba4aa7efb30d4c4') in 0.043227 seconds 
+  Time since last request: 1778.419105 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Arena/ArenaGridAlbedo.tif
+  artifactKey: Guid(0064cdd6a5b93874c8640c5f3ac0eb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Arena/ArenaGridAlbedo.tif using Guid(0064cdd6a5b93874c8640c5f3ac0eb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de3e76ff24537ad2f71159185f5b50a') in 0.143830 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/3 - Story/Prefabs/NPC.prefab
-  artifactKey: Guid(bf040d65148efdc4d98a4430e43e58ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/NPC.prefab using Guid(bf040d65148efdc4d98a4430e43e58ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b4de04184e544258fdedcd85080625') in 0.099871 seconds 
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+  artifactKey: Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png using Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f674a4d12e54b938a6e78763fe1efb23') in 0.339801 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/3 - Story/Prefabs/Watermelon.prefab
-  artifactKey: Guid(d7ec8f4e39d89d04db7efb4c85355af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/Watermelon.prefab using Guid(d7ec8f4e39d89d04db7efb4c85355af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec3c6799ee1f7daa9f2ad17d74ecc2c') in 0.033867 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+  artifactKey: Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png using Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3661bfbec5b958cb8e70ccf2484451') in 0.079268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
+  artifactKey: Guid(eb5f6e2757c821940b69cf1456f7865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png using Guid(eb5f6e2757c821940b69cf1456f7865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c404dd69dec3dbc2df9e1c6be8bd275a') in 0.081422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/1 - Shooter/Images/BottomLeftIndicator.png
+  artifactKey: Guid(bd6e4b3236a46a843b54973a9255d1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Images/BottomLeftIndicator.png using Guid(bd6e4b3236a46a843b54973a9255d1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83188693a14fa8aea62051c3cb8ba980') in 0.071579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/1 - Shooter/Images/BottomRightIndicator.png
+  artifactKey: Guid(6bee8e32bcb556244ae03517e49e236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Images/BottomRightIndicator.png using Guid(6bee8e32bcb556244ae03517e49e236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f30df00279016d68ad7e4b9cf3a01a3') in 0.084028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Arena/ArenaSkybox.exr
+  artifactKey: Guid(85bfb9ffd6bbd0043b79fb37c1c6d7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Arena/ArenaSkybox.exr using Guid(85bfb9ffd6bbd0043b79fb37c1c6d7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e21af5ed95e7e2515a51389aa2ae38') in 0.110070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+  artifactKey: Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png using Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1221726467e463b7e1985b3ad4180648') in 0.080410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.133252 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+  artifactKey: Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png using Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb60582c0ee7ff79bf82d9bf06530dd6') in 0.036122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+  artifactKey: Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png using Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305572c586736a297671ac188702aa8d') in 0.031918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+  artifactKey: Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png using Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c14d0ff6a0435a588c01643b18f7b80') in 0.037110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+  artifactKey: Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png using Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73607c332e781cc335423995eeba68f') in 0.030637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2 - Puzzle/Images/crosshair_texture.png
+  artifactKey: Guid(93ac1ab8d8e491644abda3efb68dcfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 - Puzzle/Images/crosshair_texture.png using Guid(93ac1ab8d8e491644abda3efb68dcfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262f7d073672d1b07181391525defe70') in 0.026140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+  artifactKey: Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png using Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851aaaa4138d2b78826f93f408035dfe') in 0.028631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+  artifactKey: Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png using Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e9da78f2bb26cce8a2c485e0974651') in 0.040420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5 - Platformer/Effects/_Materials/Effect_03_8x4-32.png
+  artifactKey: Guid(611ab02a1b0c34eacac1a04aa2bdcddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/_Materials/Effect_03_8x4-32.png using Guid(611ab02a1b0c34eacac1a04aa2bdcddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a83194dca3f78735dbadf783593ab1') in 0.046913 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/3 - Story/Prefabs/ConversableObject.prefab
-  artifactKey: Guid(7bb85a690f26b774884da09f92a56f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3 - Story/Prefabs/ConversableObject.prefab using Guid(7bb85a690f26b774884da09f92a56f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8fba14426d409ef1b928171e2c7b6c') in 0.047237 seconds 
+  path: Assets/5 - Platformer/Effects/Effects/_Materials/Effect_04_8x4-32.png
+  artifactKey: Guid(71385299a8e810a4cb504bd1164c02c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/Effects/_Materials/Effect_04_8x4-32.png using Guid(71385299a8e810a4cb504bd1164c02c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31930f86efa40ce4e5a0988a4fd64926') in 0.113759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5 - Platformer/Effects/_Materials/Effect_06_8x6-48.png
+  artifactKey: Guid(424e16d271aa34549b27cc6f687d71e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/_Materials/Effect_06_8x6-48.png using Guid(424e16d271aa34549b27cc6f687d71e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abde414f1e1e64eab200ca135ec1dd0') in 0.042345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Particles/FlashParticle.tif
+  artifactKey: Guid(9ec7b57b7f8178841b059a684f80cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Particles/FlashParticle.tif using Guid(9ec7b57b7f8178841b059a684f80cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0268c8119eaeb3bd0be40dd58792e23d') in 0.023878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/5 - Platformer/Effects/_Materials/Effect_04_8x4-32.png
+  artifactKey: Guid(fd38e967a28d645b9a29968c3cc113cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/_Materials/Effect_04_8x4-32.png using Guid(fd38e967a28d645b9a29968c3cc113cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd895586e2b9a6514c813494e8f5ea800') in 0.016590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5 - Platformer/Effects/Effects/_Materials/Effect_06_8x6-48.png
+  artifactKey: Guid(17306a401b07e0743be69d3ec61e7cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/Effects/_Materials/Effect_06_8x6-48.png using Guid(17306a401b07e0743be69d3ec61e7cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c94e0f179c51f9e3e1856505acdf83') in 0.017742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/5 - Platformer/Effects/_Materials/Effect_05_8x8-64.png
+  artifactKey: Guid(5031a0115db7440e7b931c0503af22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/_Materials/Effect_05_8x8-64.png using Guid(5031a0115db7440e7b931c0503af22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cd64c63d793230243cd3d6b8a1f659') in 0.047398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_03.png
+  artifactKey: Guid(24941804827e1524eb70477f7f68a111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_03.png using Guid(24941804827e1524eb70477f7f68a111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9f602d7d6025729578125ef5c91e3e') in 0.075085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_03_Sunless.png
+  artifactKey: Guid(6b057cc84b9df8440b171f96ff306279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_03_Sunless.png using Guid(6b057cc84b9df8440b171f96ff306279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f99c60f8ab933731b490eded851c4d5') in 0.112236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_06.png
+  artifactKey: Guid(5dd1dab73acb80a4ca4a200b35ea95e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_06.png using Guid(5dd1dab73acb80a4ca4a200b35ea95e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8ffa674fc662721c5919711497e0db') in 0.082593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_05.png
+  artifactKey: Guid(3b9c8413bb7d59b4dbd832a9122271cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_05.png using Guid(3b9c8413bb7d59b4dbd832a9122271cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b37fe0885aef2e9a9ac0a58f796507b') in 0.074422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5 - Platformer/Effects/Effects/_Materials/Effect_08_8x4-32.png
+  artifactKey: Guid(5b4b3049ac142cf44982fa6586db3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/Effects/_Materials/Effect_08_8x4-32.png using Guid(5b4b3049ac142cf44982fa6586db3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09078431f7cd3e7d9cd7e2d9436f6fd') in 0.034863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_03.png
+  artifactKey: Guid(df8d1504e61fa6046bbb3b99bf96da1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_03.png using Guid(df8d1504e61fa6046bbb3b99bf96da1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c52810ae6829f0810b2bd94f55fec6') in 0.074116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2 - Puzzle/Images/cyllinder_preview.png
+  artifactKey: Guid(d0526522f1323d2418904228de62dce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 - Puzzle/Images/cyllinder_preview.png using Guid(d0526522f1323d2418904228de62dce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c31f29ca64f28072d023a0eea3d2bb') in 0.029129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/2 - Puzzle/Images/cube_preview.png
+  artifactKey: Guid(ba3257a8ee8ce9a4f9c61c619ca37543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 - Puzzle/Images/cube_preview.png using Guid(ba3257a8ee8ce9a4f9c61c619ca37543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131f719566d46d594c94458d396f293d') in 0.049240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/6 - Open World (in development)/Textures/detail_grass_texture_1.png
+  artifactKey: Guid(030d18166efcd174dba1c61f8c328af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6 - Open World (in development)/Textures/detail_grass_texture_1.png using Guid(030d18166efcd174dba1c61f8c328af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41229a190224e9f5405170775d4d981') in 0.028641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/5 - Platformer/Effects/_Materials/Effect_07_8x8-64.png
+  artifactKey: Guid(411d5d12701d34c578b3282ddfab9b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/_Materials/Effect_07_8x8-64.png using Guid(411d5d12701d34c578b3282ddfab9b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd306d3080c0a0c4a05ed96301891cda9') in 0.041602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_01.png
+  artifactKey: Guid(1331a26d2843a1148a23d5ddc81629dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_01.png using Guid(1331a26d2843a1148a23d5ddc81629dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977eeeb14f02e6d7ce5c460c53301668') in 0.046007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Particles/Flash.tif
+  artifactKey: Guid(cde6d4996c81ce943976f7db8ec9d444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Particles/Flash.tif using Guid(cde6d4996c81ce943976f7db8ec9d444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc59dd3674096491cd85bde815d6175') in 0.013672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_04.png
+  artifactKey: Guid(599e20092e3297247ad7ecc4ba9caf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_04.png using Guid(599e20092e3297247ad7ecc4ba9caf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6ea3c8686a8393cd53d5aeea9ba0c4') in 0.041196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_05_Sunless.png
+  artifactKey: Guid(33762238fbd938c4c97707195d7e97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_05_Sunless.png using Guid(33762238fbd938c4c97707195d7e97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c04b058a517570209dc4aec6df65a7a') in 0.084053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2 - Puzzle/Images/DollImg.png
+  artifactKey: Guid(b0dcec413b42d6345af53b8ad8d0d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 - Puzzle/Images/DollImg.png using Guid(b0dcec413b42d6345af53b8ad8d0d71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e070965fd326e5e834bfc69a6e23924') in 0.030223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/5 - Platformer/Effects/Effects/_Materials/Effect_03_8x4-32.png
+  artifactKey: Guid(282d0a86bb3b3744a99263877a121021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/Effects/_Materials/Effect_03_8x4-32.png using Guid(282d0a86bb3b3744a99263877a121021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e04c3d985f495dbd8c5e0fc03e682a7') in 0.039108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/5 - Platformer/Effects/Effects/_Materials/Effect_01_8x4-32.png
+  artifactKey: Guid(ee8aefa14b7c7cb4b8067ed84e61fa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/Effects/_Materials/Effect_01_8x4-32.png using Guid(ee8aefa14b7c7cb4b8067ed84e61fa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f426feb39fa7ceb3287b6c895e114bcb') in 0.066204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_02_Moonless.png
+  artifactKey: Guid(6b1d9786203d21246bc448213b0f9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_02_Moonless.png using Guid(6b1d9786203d21246bc448213b0f9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435959aa8eb212414d7eefa0bfeb422c') in 0.158073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5 - Platformer/Effects/Effects/_Materials/Effect_05_8x8-64.png
+  artifactKey: Guid(d1928a7e243c7ea48b35bd80cfe34443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/Effects/_Materials/Effect_05_8x8-64.png using Guid(d1928a7e243c7ea48b35bd80cfe34443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ceb3abb9533511eec2fa3e1a3dd241') in 0.065267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/5 - Platformer/Effects/_Materials/Effect_08_8x4-32.png
+  artifactKey: Guid(ab1845f625a5f4d69a0d517d25674ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/_Materials/Effect_08_8x4-32.png using Guid(ab1845f625a5f4d69a0d517d25674ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ddd70b07aa74ca5c51d6fbb9f4584f') in 0.044046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_02.png
+  artifactKey: Guid(88c467166db994146961f1ecc5fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_02.png using Guid(88c467166db994146961f1ecc5fc214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ccead0ce51d79a7273511fef6a2b57') in 0.096454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4316739cdb83a13a29d698d817bfec3c') in 0.033985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_01_Sunless.png
+  artifactKey: Guid(d6a64d96999aec647a489f7d73c1a4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_01_Sunless.png using Guid(d6a64d96999aec647a489f7d73c1a4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd6ff51084841bfe5c8973da4392ef2') in 0.062167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_04_Sunless.png
+  artifactKey: Guid(0e981c5218a661d479182696be5f084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_04_Sunless.png using Guid(0e981c5218a661d479182696be5f084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f9dacb8dfaab5ad31b4f29eb47efa3') in 0.133868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/5 - Platformer/Effects/Effects/_Materials/Effect_02_8x6-48.png
+  artifactKey: Guid(f5c12735e487f1f4db46e315e5cfeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/Effects/_Materials/Effect_02_8x6-48.png using Guid(f5c12735e487f1f4db46e315e5cfeaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946ecf291ccfcfe86d52d7e13d33c0f5') in 0.062430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3 - Story/Textures/cliff_texture_1.jpg
+  artifactKey: Guid(136a66bcba2ee1a428a6a2c320368ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3 - Story/Textures/cliff_texture_1.jpg using Guid(136a66bcba2ee1a428a6a2c320368ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba085ecb40c191a54959d91772c8d3c') in 0.027640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+  artifactKey: Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png using Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce02b80ba22611b7dedb07c06b4905a6') in 0.035778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_01.png
+  artifactKey: Guid(a64d2362d418d194f91274685fb10faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_01.png using Guid(a64d2362d418d194f91274685fb10faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b5e9a02f061ad22d249db56e22f955') in 0.054311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5 - Platformer/Effects/Effects/_Materials/Effect_07_8x8-64.png
+  artifactKey: Guid(6fe2be4614d357e40a88a7b094c9e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/Effects/_Materials/Effect_07_8x8-64.png using Guid(6fe2be4614d357e40a88a7b094c9e4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1423ab68dd2a3405830dc6d53aedd551') in 0.022161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+  artifactKey: Guid(a94c9a7eb94ceec4a8d67a1890e22e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png using Guid(a94c9a7eb94ceec4a8d67a1890e22e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517cd3cc098c1f55fa460a079882ccc9') in 0.034447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_02_Sunless.png
+  artifactKey: Guid(a12ea62fd952d57439f49b6287da4762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_02_Sunless.png using Guid(a12ea62fd952d57439f49b6287da4762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8e18a8f12ec908b14dd4d938d730dd') in 0.074605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_01_Moonless.png
+  artifactKey: Guid(ac8a32e5107b67a47939926c52798a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_01_Moonless.png using Guid(ac8a32e5107b67a47939926c52798a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af9f3fe78b8263c1d783dbbb305e280') in 0.097481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+  artifactKey: Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png using Guid(a3983c59ebf804b4abba687bd7c9e92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f96776649f65a91276b1c193b1d27c0') in 0.040152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/5 - Platformer/Effects/_Materials/Effect_01_8x4-32.png
+  artifactKey: Guid(4ff5de4bdb9704c38a0cd21ac3191c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/_Materials/Effect_01_8x4-32.png using Guid(4ff5de4bdb9704c38a0cd21ac3191c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe0708e437a0229ecd1d286f7f00d12') in 0.014181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_02.png
+  artifactKey: Guid(e60c8653c33d3da4d8f660c15214d3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_02.png using Guid(e60c8653c33d3da4d8f660c15214d3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe15d8a23aa242b6f1455c0a8f626b0d') in 0.066310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_06_Sunless.png
+  artifactKey: Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Day_06_Sunless.png using Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5681df33fb1e902af50adeb2b777ed') in 0.065025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5 - Platformer/Effects/_Materials/Effect_02_8x6-48.png
+  artifactKey: Guid(a9d562fa15fa947ea834e675c0c490fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Effects/_Materials/Effect_02_8x6-48.png using Guid(a9d562fa15fa947ea834e675c0c490fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77c13912136926b9df35e19ffc22281') in 0.047423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346599 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_03_Moonless.png
+  artifactKey: Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/Classic/FS000_Night_03_Moonless.png using Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bc0e6b0d4b336cd9471dde0ae9201b') in 0.089410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Night_Moonless.png
+  artifactKey: Guid(6185794ad33085a4a9f8446781cb8f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Night_Moonless.png using Guid(6185794ad33085a4a9f8446781cb8f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2779b293f21567c930d1f63d46944cd') in 0.035325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Sunset.png
+  artifactKey: Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Sunset.png using Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77b11fdb041a5a1178adca4b95be460') in 0.039549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Night_Moonless.png
+  artifactKey: Guid(13ec4f589b2340646969832fc2e68ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Night_Moonless.png using Guid(13ec4f589b2340646969832fc2e68ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad22ab6db4ecfda4c2583f090e1ded15') in 0.035499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Day_Sunless.png
+  artifactKey: Guid(268c93021d7cf59469304bd4e244f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Day_Sunless.png using Guid(268c93021d7cf59469304bd4e244f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b096e978e99aab775eda2e0955204c') in 0.041034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Sunset.png
+  artifactKey: Guid(846cce7d90ad21b4b80fcb937193081e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Sunset.png using Guid(846cce7d90ad21b4b80fcb937193081e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf2ac37d03aad591d49e3fbefd7ad95') in 0.044581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Snowy.png
+  artifactKey: Guid(0ffe8585761fae642bd4d7d85819a5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Snowy.png using Guid(0ffe8585761fae642bd4d7d85819a5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637fff2aecc4ddadba77e0deeef1f07b') in 0.043065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Night_Moonless.png
+  artifactKey: Guid(a81552b25f3b36b43b82a6c5daf6e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Night_Moonless.png using Guid(a81552b25f3b36b43b82a6c5daf6e098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93210276eb65a18a1ed4f2b4f28d2eb') in 0.049720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Sunset.png
+  artifactKey: Guid(89878140665978f4f9f27f55a61fb12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Sunset.png using Guid(89878140665978f4f9f27f55a61fb12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2204cab47d81c5c004aabba0ef5413') in 0.052476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Snowy.png
+  artifactKey: Guid(787c830ffbe38b14a9c7bcf39669cdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Snowy.png using Guid(787c830ffbe38b14a9c7bcf39669cdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f759b1dedc1498531b641644f5b277') in 0.041406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83a395d2eef8ab937557154f1916bfc') in 0.137246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Sunrise.png
+  artifactKey: Guid(7deb3454b299fae498f2365d40aee326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Sunrise.png using Guid(7deb3454b299fae498f2365d40aee326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178a1feb5b7c8dff8ded2c9879e08814') in 0.036819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Snowy.png
+  artifactKey: Guid(cd6e32b2b89313e4ba54e7fc07ea31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Snowy.png using Guid(cd6e32b2b89313e4ba54e7fc07ea31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451bcef659d48977be1978e34f3124c1') in 0.026157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Day.png
+  artifactKey: Guid(90bac99dc822bf641b140cdc291b845e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Day.png using Guid(90bac99dc822bf641b140cdc291b845e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07f9b603718579059ff208a04301594') in 0.022762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Rainy.png
+  artifactKey: Guid(16d9adf6c3330a04791bfc80481167c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Rainy.png using Guid(16d9adf6c3330a04791bfc80481167c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cefe40c626ae566a5ea7d1a498191f') in 0.037135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ee77421d7b6992a1e5ae649d2fd909') in 0.056031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Day.png
+  artifactKey: Guid(97c83ef8555216848ba4f98a7496a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Day.png using Guid(97c83ef8555216848ba4f98a7496a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2f2f5ef92aa46c3eee812060ea8533') in 0.046798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Night.png
+  artifactKey: Guid(3cf4d52b14bd4254d9f4fd063f8d9bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Night.png using Guid(3cf4d52b14bd4254d9f4fd063f8d9bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8d4a98c5044092e9c342cb2ebeeb7b') in 0.051066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Sunrise.png
+  artifactKey: Guid(c15e36d3819e8d14ab21ab119e3fd4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Sunrise.png using Guid(c15e36d3819e8d14ab21ab119e3fd4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e238c34e83ba773b60cc5e7f98ce4807') in 0.083613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Day_Sunless.png
+  artifactKey: Guid(99b254ad4e7668d419be526ebb66b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Day_Sunless.png using Guid(99b254ad4e7668d419be526ebb66b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c714fc2aa919299c9cb840de21fb55') in 0.047672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/6 - Open World (in development)/Textures/grass_texture_1.jpg
+  artifactKey: Guid(e34d8d5ea45f9da438845632ecbd71f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6 - Open World (in development)/Textures/grass_texture_1.jpg using Guid(e34d8d5ea45f9da438845632ecbd71f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1aac09a972a565ca7cceb6d381df3a') in 0.032461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Night_Moonless.png
+  artifactKey: Guid(71af0a156cd7ed6469b31ce35294a78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Night_Moonless.png using Guid(71af0a156cd7ed6469b31ce35294a78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff5d0c15e5ebdd13c9c77eec16233ed') in 0.041737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Rainy.png
+  artifactKey: Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Rainy.png using Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a37d18006908e752952ccb898dbfe0') in 0.063615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Night.png
+  artifactKey: Guid(32cef6a96e79c904387df9d92260fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Night.png using Guid(32cef6a96e79c904387df9d92260fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc097bb2e6868cef660380f87f8cd41') in 0.041394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Day_Sunless.png
+  artifactKey: Guid(20f8339484595a64b81579493040f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Day_Sunless.png using Guid(20f8339484595a64b81579493040f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9918d284b838d9495f9d6b70150d251b') in 0.065576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Day_Sunless.png
+  artifactKey: Guid(e2c576b6d07638b468b5ba303a3a07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Day_Sunless.png using Guid(e2c576b6d07638b468b5ba303a3a07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fc7a11b4cc42c58db8b3213d318858') in 0.041719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Night.png
+  artifactKey: Guid(134608dbb5b4b3e458e3567b13281134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Night.png using Guid(134608dbb5b4b3e458e3567b13281134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158aaa5516236c1428c0268c4b2e5f03') in 0.041626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Sunset.png
+  artifactKey: Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Sunset.png using Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdac9941a4d2f5c3df6b01231fc76b11') in 0.069007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Night.png
+  artifactKey: Guid(323f1ea1bce78fe4c90b2286fa1997e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Night.png using Guid(323f1ea1bce78fe4c90b2286fa1997e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3436a00cc6d6aefeb002ae5ebfd424d') in 0.047461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Day.png
+  artifactKey: Guid(163214a3accfb80488d2e6a27f45b743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Day.png using Guid(163214a3accfb80488d2e6a27f45b743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffb0a16f96c666457e9e127f0dc47f3') in 0.043568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Day.png
+  artifactKey: Guid(53129b20db5c19c4a9f4fcd4efd08b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Day.png using Guid(53129b20db5c19c4a9f4fcd4efd08b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367e6f3053d31e4e305bdeedd2c34100') in 0.038008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Sunrise.png
+  artifactKey: Guid(99bb9346a54a1ef45b3d086ccba8cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS013/FS013_Sunrise.png using Guid(99bb9346a54a1ef45b3d086ccba8cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6bba1049f6a90b08f1231383dd51e1') in 0.035466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Snowy.png
+  artifactKey: Guid(f4d685236ef56ef41a4ddef00508a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Snowy.png using Guid(f4d685236ef56ef41a4ddef00508a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61f8264056381c010a5b9efae7abca2') in 0.032027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Maze/LowManOcclusion.tif
+  artifactKey: Guid(2db9b49529685fe43bd5a18a16c1511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Maze/LowManOcclusion.tif using Guid(2db9b49529685fe43bd5a18a16c1511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a69f7546639f04db2daf74516c587e') in 0.070369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Rainy.png
+  artifactKey: Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS003/FS003_Rainy.png using Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e35b9de8c223576ae3e350a17cac247') in 0.132611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Rainy.png
+  artifactKey: Guid(9183c8173b34a5741a60673a672347cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS002/FS002_Rainy.png using Guid(9183c8173b34a5741a60673a672347cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a826b86abd43fc73cf9dbc0d58ab489') in 0.038871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Sunrise.png
+  artifactKey: Guid(5e24d3ca061bf2b48a3e334c5cc4eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 - Platformer/Skyboxes/Materials/FS017/FS017_Sunrise.png using Guid(5e24d3ca061bf2b48a3e334c5cc4eab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b4f8699a45ff7c832dc3052ed38b40') in 0.033562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Maze/MazePowerConsoleAlbedo.tif
+  artifactKey: Guid(3f7d5298b2a79d4488e2ead820321f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Maze/MazePowerConsoleAlbedo.tif using Guid(3f7d5298b2a79d4488e2ead820321f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3131898e5cf69533bba39876dbb4886d') in 0.021631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.564901 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Maze/MazePowerConsoleOcclusion.tif
+  artifactKey: Guid(a307ebb9a34fdae49960e5153ffd8e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Maze/MazePowerConsoleOcclusion.tif using Guid(a307ebb9a34fdae49960e5153ffd8e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3c5ef9d22795a002c503e27a7c3cf4') in 0.080950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/6 - Open World (in development)/UI/MinimapSpriteMask.png
+  artifactKey: Guid(78c455ddc321efe48bb6111368844be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6 - Open World (in development)/UI/MinimapSpriteMask.png using Guid(78c455ddc321efe48bb6111368844be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee584da49e6ef90d80dea01156c9a05e') in 0.084234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeTurretAlbedo.tif
+  artifactKey: Guid(c0353c136ab68114fa46f4ae7d062725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeTurretAlbedo.tif using Guid(c0353c136ab68114fa46f4ae7d062725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f226069406de3fb5c3892e8481b44b6') in 0.032903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeUnityLogo.tif
+  artifactKey: Guid(4978aa29d2467c04dabb170ac0320f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeUnityLogo.tif using Guid(4978aa29d2467c04dabb170ac0320f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8119c62134866f64470eb33f042ad8a') in 0.027689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeSkybox.exr
+  artifactKey: Guid(8bb65c5ad5e9c0b459ce3c4f9e61b929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeSkybox.exr using Guid(8bb65c5ad5e9c0b459ce3c4f9e61b929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cfe2579a6982f115c287e93a6b73a3') in 0.071246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/6 - Open World (in development)/UI/Minimap.png
+  artifactKey: Guid(3c682a1f5e1de9345832f1ae9ff1ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6 - Open World (in development)/UI/Minimap.png using Guid(3c682a1f5e1de9345832f1ae9ff1ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f197f86688e79f4d4bf744864dcbfeae') in 0.088203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeTurretOcclusion.tif
+  artifactKey: Guid(bb49315b19b8fa74ebab5836fd8efc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeTurretOcclusion.tif using Guid(bb49315b19b8fa74ebab5836fd8efc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef4b8cb0b68d00b395e4fe0157134c4') in 0.093660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeUnityLogoText.tif
+  artifactKey: Guid(a5559a3263544d243a751d4e8a8511f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Maze/MazeUnityLogoText.tif using Guid(a5559a3263544d243a751d4e8a8511f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78085366eb93ea5009d2270d2a90bcda') in 0.028569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2 - Puzzle/Images/pavement_texture_1.jpg
+  artifactKey: Guid(affcb71827151f54da4a11ba4f5967c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 - Puzzle/Images/pavement_texture_1.jpg using Guid(affcb71827151f54da4a11ba4f5967c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763be61187cbd00109ef99176ba87915') in 0.025246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/6 - Open World (in development)/3DModels/Textures/Pine_Model_Texture_1.png
+  artifactKey: Guid(b3f5e7175d0eb6c4e9b439c28574139d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6 - Open World (in development)/3DModels/Textures/Pine_Model_Texture_1.png using Guid(b3f5e7175d0eb6c4e9b439c28574139d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2f0d339a1010a29b64740dcb9826ec') in 0.075720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/1 - Shooter/Textures/ShooterBgAlbedo.tif
+  artifactKey: Guid(d5747c0ad449dc548aa020d83df45f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Textures/ShooterBgAlbedo.tif using Guid(d5747c0ad449dc548aa020d83df45f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5262b2b1468eda1c4bf973f2b7fa57e') in 0.045666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Scenes/ArenaEmpty/ReflectionProbe-0.exr
+  artifactKey: Guid(c65ad934c3e143e4f8d8adedac07ec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Scenes/ArenaEmpty/ReflectionProbe-0.exr using Guid(c65ad934c3e143e4f8d8adedac07ec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396ef2db035c9f29fc613afc80e33a22') in 0.047148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/3 - Story/3DModels/Textures/Pine_Model_Texture_1.png
+  artifactKey: Guid(1f882a78d474be84c93f4bf612a241b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3 - Story/3DModels/Textures/Pine_Model_Texture_1.png using Guid(1f882a78d474be84c93f4bf612a241b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1a27f4f3209e26706a183afd356fe4') in 0.077841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/2 - Puzzle/Images/pngtree-cartoon-stick-image_1362241.jpg
+  artifactKey: Guid(20fff06588e02044c8be419527e0acb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 - Puzzle/Images/pngtree-cartoon-stick-image_1362241.jpg using Guid(20fff06588e02044c8be419527e0acb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27b2d4e82bb35a318dbfb8555ab2966') in 0.030747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 493.437073 seconds.
+  path: Assets/1 - Shooter/Textures/ShooterBlobShadowAlbedo.tif
+  artifactKey: Guid(b3ce4dd229715a8429b80ea1ab0f65a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Textures/ShooterBlobShadowAlbedo.tif using Guid(b3ce4dd229715a8429b80ea1ab0f65a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d3b5c1958b09ca352aafb278d8cc10') in 0.045960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/1 - Shooter/Textures/ShooterFPSWeaponOcclusion.tif
+  artifactKey: Guid(0d318fb6db4fb694ca0f2da024066ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Textures/ShooterFPSWeaponOcclusion.tif using Guid(0d318fb6db4fb694ca0f2da024066ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7d8ed1a3a41b01b7f5e7abc7d6f674') in 0.047765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/3 - Story/Textures/target_indicator.png
+  artifactKey: Guid(c08aa3edafa97ab41984beecd70d79e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3 - Story/Textures/target_indicator.png using Guid(c08aa3edafa97ab41984beecd70d79e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883591ea381553cf88076c0ec5df517c') in 0.028766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/1 - Shooter/Shared Assets/Textures/Particles/SparkParticle.tif
+  artifactKey: Guid(dbb3a00da339eb74f8a7b1958698569f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Shared Assets/Textures/Particles/SparkParticle.tif using Guid(dbb3a00da339eb74f8a7b1958698569f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee03179a925fc2d9c859d65345f9a5db') in 0.022869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/1 - Shooter/Textures/ShooterFPSWeapon2Occlusion.tif
+  artifactKey: Guid(f41c2ebfb03c2fc45adc3e1aef45f4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Textures/ShooterFPSWeapon2Occlusion.tif using Guid(f41c2ebfb03c2fc45adc3e1aef45f4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b018b18998aafd6b4f41cac89b1202') in 0.060923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2 - Puzzle/Images/Sledgehammer.jpg
+  artifactKey: Guid(ee07f4475e531bf429e8356311fb1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 - Puzzle/Images/Sledgehammer.jpg using Guid(ee07f4475e531bf429e8356311fb1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03e6f723d23a67911bef1029e52b58f') in 0.028637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/1 - Shooter/Textures/ShooterFPSWeaponNormals.tif
+  artifactKey: Guid(b9ab8a72f9c36e649b4b69cab41fb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Textures/ShooterFPSWeaponNormals.tif using Guid(b9ab8a72f9c36e649b4b69cab41fb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f359a7b7ba543b98bc56d621b7a1e3') in 0.069656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+  artifactKey: Guid(0626b924325d1c34cafa6b22297f4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png using Guid(0626b924325d1c34cafa6b22297f4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5210f9f93a9e1e6dc8ed137cc2660bbe') in 0.026579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/1 - Shooter/Textures/ShooterFPSWeaponAlbedo.tif
+  artifactKey: Guid(fce7035b42ffdfd4d8944c5cf433df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Textures/ShooterFPSWeaponAlbedo.tif using Guid(fce7035b42ffdfd4d8944c5cf433df05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6991c2fd200129419a6cca2c2968288') in 0.020467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+  artifactKey: Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png using Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaeb04b14223ac67ed327852b9e4887') in 0.032447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/1 - Shooter/Textures/ShooterTargetAlbedo.tif
+  artifactKey: Guid(a63ed13f9d17cde4a98c66d2848d9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Textures/ShooterTargetAlbedo.tif using Guid(a63ed13f9d17cde4a98c66d2848d9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6c21b6bbd0744ea915e8963a6cd1d4') in 0.030611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/1 - Shooter/Textures/ShooterSkybox.png
+  artifactKey: Guid(78fde74ca5520cb4b979933655a20804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Textures/ShooterSkybox.png using Guid(78fde74ca5520cb4b979933655a20804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4328f92b2784fdf3137518d14900af43') in 0.029916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2 - Puzzle/Images/sphere_preview.png
+  artifactKey: Guid(6b7a50a93108662449f1a160ca7c8f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 - Puzzle/Images/sphere_preview.png using Guid(6b7a50a93108662449f1a160ca7c8f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63817d0812662362a065604dc08e91f') in 0.022853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.837482 seconds.
+  path: Assets/1 - Shooter/Images/TargetReticle.png
+  artifactKey: Guid(873407b4e6d992144a23313d5366b3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Images/TargetReticle.png using Guid(873407b4e6d992144a23313d5366b3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17df52009c8ab15892bdcfdcb38e659e') in 0.049756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+  artifactKey: Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Future Dev Backups/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png using Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e643523d6d535e784504af8974b01f1') in 0.054835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/1 - Shooter/Images/TopRightIndicator.png
+  artifactKey: Guid(1efe6c043dcb1d4458040804b45b7b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Images/TopRightIndicator.png using Guid(1efe6c043dcb1d4458040804b45b7b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da46dd3adcb458d60348a24273bf3cd0') in 0.025951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/1 - Shooter/Images/TopLeftIndicator.png
+  artifactKey: Guid(83adc035917a1934d879052f92e94f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 - Shooter/Images/TopLeftIndicator.png using Guid(83adc035917a1934d879052f92e94f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecc4d43b2c14897e0ad7444019c1546') in 0.028205 seconds 
